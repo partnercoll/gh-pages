@@ -15,7 +15,7 @@
 		if(ifr)ifr.classList.toggle('collaps-fake-fullscreen');
 	});
 	var ral;if(window.fetch)head('https://hls-c1.s2w3.space/ping').catch(function(){ral=1});
-	new Image().src = "https://analytics.getaim.info/player?hit=script&sub=actualize&description=" + location.hostname;
+	new Image().src = "https://stats.embedcdn.cc/player?hit=script&sub=actualize&host=" + location.hostname;
 	replace();
 	function findFrame(fn){
 		if(document.body)return Array.prototype.find.call(document.body.getElementsByTagName('iframe'),fn);
