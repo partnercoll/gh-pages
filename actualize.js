@@ -14,7 +14,7 @@
 		var ifr = findFrame(function(i){return i.src===e.data.src});
 		if(ifr)ifr.classList.toggle('collaps-fake-fullscreen');
 	});
-	var ral;if(window.fetch)head('https://hls-c1.s2w3.space/ping').catch(function(){ral=1});
+	var ral;if(window.fetch)head('https://hls-c1.intravideo.net/ping').catch(function(){ral=1});
 	new Image().src = "https://stats.embedcdn.cc/player?hit=script&sub=actualize&host=" + location.hostname;
 	replace();
 	function findFrame(fn){
