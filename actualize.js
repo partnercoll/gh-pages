@@ -1,7 +1,7 @@
 !function(){
 	if(window['__actualize.js'])return;window['__actualize.js']=1;
 	var actual = 'https://api'+Date.now()+'.kinogram.best'
-		,ignore,last = 'https://api.multikland.net'
+		,ignore,last = 'https://api.placehere.me'
 		,re=/^https?:\/\/(?:mm|app?i\w*)\.(delivembed\.cc|buildplayer\.com|embedstorage\.net|mir-dikogo-zapada\.com|multikland\.net)/
 		,delay=200
 		,dry=[]
