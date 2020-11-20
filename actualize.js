@@ -2,7 +2,7 @@
 	if(window['__actualize.js'])return;window['__actualize.js']=1;
 	var actual = "https://api.kinogram.best"
 		,ignore,last = 'https://api.placehere.link'
-		,re=/^https?:\/\/(?:mm|app?i\w*)\.(delivembed\.cc|buildplayer\.com|embedstorage\.net|mir-dikogo-zapada\.com|multikland\.net|placehere\.link)/
+		,re=/^https?:\/\/(?:mm|app?i\w*)\.(delivembed\.cc|buildplayer\.com|embedstorage\.net|mir-dikogo-zapada\.com|multikland\.net|placehere\.link|synchroncode\.com)/
 		,delay=200
 		,dry=[]
 		,MS = window.MediaSource || window['WebKitMediaSource']
