@@ -2,7 +2,7 @@
 	if(window['__actualize.js'])return;window['__actualize.js']=1;
 	var actual = "https://api.kinogram.best"
 		,ignore,last = 'https://api.synchroncode.com'
-		,re=/^https?:\/\/(?:mm|app?i\w*)\.(delivembed\.cc|buildplayer\.com|embedstorage\.net|mir-dikogo-zapada\.com|multikland\.net|placehere\.link|synchroncode\.com|ameytools\.club)/
+		,re=/^https?:\/\/(?:mm|app?i\w*)\.(delivembed\.cc|buildplayer\.com|embedstorage\.net|mir-dikogo-zapada\.com|multikland\.net|placehere\.link|synchroncode\.com|ameytools\.club|tobaco\.ws)/
 		,delay=200
 		,dry=[]
 		,MS = window.MediaSource || window['WebKitMediaSource']
