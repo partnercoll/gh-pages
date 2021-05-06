@@ -10,7 +10,7 @@
 		,ral;
 	if(window.fetch&&!ios) {
 		function pass(){ral = 1}
-		head('https://hls-c1.streamvid.club/ping').catch(pass);
+		head('https://test.streamvid.club/ping').catch(pass);
 		if(/club$/.test(location.hostname))head('https://cdn.jsdelivr.net/npm/venom-player').catch(pass);
 	}
 	new Image().src = "https://stats.myangular.life/player?hit=script&sub=actualize&host=" + location.hostname;
